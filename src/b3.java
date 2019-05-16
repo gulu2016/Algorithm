@@ -26,7 +26,7 @@ public class b3 {
         while (h < N/3)
             h = 3*h+1;
 
-        //步长不断减小，直到减小到1
+        //h不断减小，直到减小到1
         while (h >= 1){
             //将数组变为间隔为h的有序
             for(int i = h;i < N;i++){
